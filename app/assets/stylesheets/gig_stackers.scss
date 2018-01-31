@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', cursive;
+  background-color: #eeeeee;
+  font-size: 100%;
+}
+
+.mainPageContent {
+  height: 100%;
+}
+
+////////////////// NAV BAR //////////////////////////
+.navBar {
+  width: 100%;
+  background-color: #222;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.navBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navBar a:hover {
+  background-color: #a1a6aa;
+  color: black;
+  text-decoration: none;
+}
+
+.navBar a:active {
+  background-color: #a1a6aa;
+}
+
+.navLinks a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.navBarLogo {
+  float: left;
+  margin-right: 2%;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.navBarLogo img {
+  width: 50px;
+}
+
+@media only screen and (max-width: 448px) {
+  .navLinks a {
+    font-size: .7em;
+  }
+}
+
+////////////////// End  NAV BAR //////////////////////////
+
+//////////////////  MAIN PHOTO //////////////////////////
+
+.mainPagePhoto {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+
+////////////////// End  MAIN PHOTO //////////////////////////
+
+
+//////////////////  MAIN Title Card //////////////////////////
+
+.mainTitleCard {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 25px;
+  margin: 30% auto 3% auto;
+  width: 35%;
+  height: 170px;
+  line-height: .5;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding-top: 6%;
+  border: none;
+  color: rgba(0,0,0,1);
+  font-size: 4.3em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  -webkit-animation-name: fadeInDown; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.mainTaglineDiv {
+  width: 100%;
+}
+
+.mainTaglineMakeMoney {
+  width: 46%;
+  margin-left: 10px;
+  float: right;
+  border: none;
+  color: rgba(97,167,107,1);
+  font-size: 2.1em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  -webkit-animation-name: fadeInDown; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  font-family: 'Architects Daughter', cursive;
+  display:inline-block;
+}
+
+.mainTaglineStackGigs {
+  width: 40%;
+  border: none;
+  text-align: right;
+  float: right;
+  color: rgba(0,0,0,1);
+  font-size: 2.1em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  -webkit-animation-name: fadeInDown; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  font-family: 'Architects Daughter', cursive;
+  display:inline-block;
+
+}
+
+.mainLearnMoreDiv{
+  text-align: center;
+}
+
+.mainLearnMore {
+  width: 15%;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+  -webkit-animation-name: fadeInDown; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+  background-color: rgba(180,180,180,0.4);
+  border: 2px solid rgb(255,255,255);
+}
+
+.mainLearnMore:hover {
+  color: #000;
+  border: 2px solid rgb(0,0,0);
+}
+
+.mainTransparentDiv {
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+}
+
+.mainPageGigStackerContent {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+  padding-top: 3%;
+}
+
+////////////////// End MAIN Title Card //////////////////////////
+
+//////////////////  WHAT IS GIGSTACKER //////////////////////////
+
+.whatIsGigStacker {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.whatIsGigStackerContent{
+  text-align: center;
+}
+
+.whatIsGigStackerContent p{
+  line-height: 20px;
+}
+
+.whatIsGigStackerContent p > a{
+  text-decoration: none;
+}
+
+.whatIsGigStackerIcons {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 70%;
+  margin: 2% auto;
+}
+
+.iconContent {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.iconContent img{
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.iconContent p, h2{
+  text-align: center;
+}
+
+
+//////////////////  END WHAT IS GIGSTACKER //////////////////////////
+
+
+////////////////// FEATURED //////////////////////////
+
+.featuredContainer {
+  height: auto;
+  width: 94%;
+  margin: 4% auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.featuredVideoContent{
+  height: auto;
+  width: 65%;
+  background-color: #fcfcfc;
+  display: inline;
+}
+
+.featuredVideoTitle {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.featuredVideoTitle h2{
+  margin: 0;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.featuredVideo {
+  height: 95%;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.gigStackerVid {
+  width: 97%;
+  height: 97%;
+  margin: 1% auto;
+  align-self: center;
+}
+
+.videoPlaylist {
+  width: 35%;
+  height: 100%;
+  /*overflow: hidden;
+  overflow-y: scroll;*/
+  margin-left: 1%;
+  background-color: #fcfcfc;
+  padding-bottom: .5%;
+  display: inline;
+}
+
+.video{
+  width: 100%;
+  height: 100%;
+  margin-left: 2%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.firstVideo{
+  margin-top: 1.5%;
+}
+
+.video iframe{
+  width: 60%;
+  height: auto;
+}
+
+.video p{
+  text-align: center;
+  margin-left: 1%;
+  align-self: center;
+}
+
+
+
+////////////////// END FEATURED //////////////////////////
+
+
+
+//////////////////  Footer //////////////////////////
+
+.footerContainer {
+  background-color: #222;
+  height: 125px;
+  width: 100%;
+}
+
+.footerContent {
+  width: 100%;
+  padding-top: 2%;
+}
+
+.footerContent p{
+  color: #fcfcfc;
+  text-align: center;
+  margin: 0;
+}
+/* Style all font awesome icons */
+.socialMediaIcons {
+  text-align: center;
+  margin: 1%;
+}
+
+.fa {
+    padding: 3px;
+    font-size: 1.5em;
+    width: 5%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+}
+
+/* youtube */
+.fa-youtube {
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  color: white;
+}
+
+
+////////////////// end  Footer //////////////////////////
