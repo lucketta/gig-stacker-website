@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :gig_stackers
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resources :gigs, only: [:index]
   root to: "gigstacker#main"
+  get "/photo_url", to: "gigs#index"
+  get "/filter_gigs", to: "gigs#filter_gigs"
+
 end

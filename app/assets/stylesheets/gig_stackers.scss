@@ -10,6 +10,61 @@ body {
   font-size: 100%;
 }
 
+////////////////// GIG LIST //////////////////////////
+
+
+.gigsTitle {
+  width: 100%;
+  border: 2px white solid;
+  text-align: center;
+  margin-top: 5%;
+  background-color: #fcfcfc;
+}
+
+.gigsList {
+  width: 95%;
+  margin: 3% auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gigCard {
+  margin: 2% auto 0 auto;
+  width: 300px;
+  height: 300px;
+  line-height: 1em;
+}
+
+.gigCard img{
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+}
+
+
+.gigName {
+  font-size: 2em;
+}
+
+.gigIndustry {
+  color: #696969;
+  font-size: 1em;
+}
+.gigDropDownContainer{
+  text-align: center;
+}
+
+select {
+  height: 40px;
+  width: 150px;
+  margin-top: 3%;
+  font-size: 1em;
+  background-color: #868e95;
+  color: white;
+}
+////////////////// END GIG LIST //////////////////////////
+
+
 .mainPageContent {
   height: 100%;
 }
@@ -60,11 +115,6 @@ body {
   width: 50px;
 }
 
-@media only screen and (max-width: 448px) {
-  .navLinks a {
-    font-size: .7em;
-  }
-}
 
 ////////////////// End  NAV BAR //////////////////////////
 

@@ -3,12 +3,25 @@
   <head>
     <title>GigStackerWebsiteV2</title>
     <%= csrf_meta_tags %>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <div class="navBar">
+      <span class="navLinks">
+          <div class="navBarLogo">
+            <img alt="GigStackerLogo" src="/assets/GigStackerLogo.png" />
+            </div>
+
+          <a href="/">Home</a>
+          <a href="/gigs">Gigs</a>
+          <a href="https://www.youtube.com/GigStacker" target="_blank" rel="noopener noreferrer" >Youtube </a>
+      </span>
+    </div>
     <%= yield %>
   </body>
 </html>
