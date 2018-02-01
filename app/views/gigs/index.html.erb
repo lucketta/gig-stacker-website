@@ -22,8 +22,10 @@
 </div>
 
 <script>
-console.log('get heres?f')
+console.log('in script')
 $(document).ready(function() {
+  console.log('ready?')
+
   $('#dropdown').on('change', function() {
     $.ajax({
      method: "get",
