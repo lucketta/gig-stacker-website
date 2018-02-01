@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: gig-stacker-website-v2_production
-  username: gig-stacker-website-v2
-  password: <%= ENV['GIG-STACKER-WEBSITE-V2_DATABASE_PASSWORD'] %>
