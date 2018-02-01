@@ -14,6 +14,7 @@
 <script>
 
 $(document).ready(function() {
+  console.log("We reached here")
   $('#dropdown').on('change', function() {
     $.ajax({
      method: "get",
@@ -22,6 +23,7 @@ $(document).ready(function() {
        industry: this.value}
     })
      .done(function( msg ) {
+       console.log("not here")
 
        var returnString = `<div class="gigsList" id="gigsList">`
 
