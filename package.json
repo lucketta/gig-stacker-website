@@ -1,5 +1,7 @@
 {
   "name": "gig-stacker-website-v2",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
