@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+/* line 5, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', cursive;
+  background-color: #eeeeee;
+  font-size: 100%;
+}
+
+/* line 16, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.gigsTitle {
+  width: 100%;
+  border: 2px white solid;
+  text-align: center;
+  margin-top: 5%;
+  background-color: #fcfcfc;
+}
+
+/* line 24, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.gigsList {
+  width: 95%;
+  margin: 3% auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* line 31, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.gigCard {
+  margin: 2% auto 0 auto;
+  width: 300px;
+  height: 300px;
+  line-height: 1em;
+}
+
+/* line 38, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.gigCard img {
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+}
+
+/* line 45, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.gigName {
+  font-size: 2em;
+}
+
+/* line 49, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.gigIndustry {
+  color: #696969;
+  font-size: 1em;
+}
+
+/* line 53, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.gigDropDownContainer {
+  text-align: center;
+}
+
+/* line 57, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+select {
+  height: 40px;
+  width: 150px;
+  margin-top: 3%;
+  font-size: 1em;
+  background-color: #868e95;
+  color: white;
+}
+
+/* line 68, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainPageContent {
+  height: 100%;
+}
+
+/* line 73, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.navBar {
+  width: 100%;
+  background-color: #222;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+/* line 82, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.navBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* line 92, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.navBar a:hover {
+  background-color: #a1a6aa;
+  color: black;
+  text-decoration: none;
+}
+
+/* line 98, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.navBar a:active {
+  background-color: #a1a6aa;
+}
+
+/* line 102, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.navLinks a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* line 107, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.navBarLogo {
+  float: left;
+  margin-right: 2%;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+/* line 114, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.navBarLogo img {
+  width: 50px;
+}
+
+/* line 123, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainPagePhoto {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+/* line 139, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainTitleCard {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 25px;
+  margin: 30% auto 3% auto;
+  width: 35%;
+  height: 170px;
+  line-height: .5;
+}
+
+/* line 148, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.title {
+  width: 100%;
+  text-align: center;
+  padding-top: 6%;
+  border: none;
+  color: black;
+  font-size: 4.3em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-animation-name: fadeInDown;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  font-family: 'Architects Daughter', cursive;
+}
+
+/* line 163, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainTaglineDiv {
+  width: 100%;
+}
+
+/* line 167, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainTaglineMakeMoney {
+  width: 46%;
+  margin-left: 10px;
+  float: right;
+  border: none;
+  color: #61a76b;
+  font-size: 2.1em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-animation-name: fadeInDown;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  font-family: 'Architects Daughter', cursive;
+  display: inline-block;
+}
+
+/* line 183, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainTaglineStackGigs {
+  width: 40%;
+  border: none;
+  text-align: right;
+  float: right;
+  color: black;
+  font-size: 2.1em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-animation-name: fadeInDown;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  font-family: 'Architects Daughter', cursive;
+  display: inline-block;
+}
+
+/* line 200, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainLearnMoreDiv {
+  text-align: center;
+}
+
+/* line 204, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainLearnMore {
+  width: 15%;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-animation-name: fadeInDown;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: fadeInDown;
+  animation-duration: 3s;
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+  background-color: rgba(180, 180, 180, 0.4);
+  border: 2px solid white;
+}
+
+/* line 220, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainLearnMore:hover {
+  color: #000;
+  border: 2px solid black;
+}
+
+/* line 225, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainTransparentDiv {
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+/* line 231, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.mainPageGigStackerContent {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+  padding-top: 3%;
+}
+
+/* line 242, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.whatIsGigStacker {
+  width: 94%;
+  margin: 0 auto;
+}
+
+/* line 247, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.whatIsGigStackerContent {
+  text-align: center;
+}
+
+/* line 251, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.whatIsGigStackerContent p {
+  line-height: 20px;
+}
+
+/* line 255, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.whatIsGigStackerContent p > a {
+  text-decoration: none;
+}
+
+/* line 259, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.whatIsGigStackerIcons {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 70%;
+  margin: 2% auto;
+}
+
+/* line 269, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.iconContent {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 274, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.iconContent img {
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 281, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.iconContent p, h2 {
+  text-align: center;
+}
+
+/* line 291, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.featuredContainer {
+  height: auto;
+  width: 94%;
+  margin: 4% auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 302, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.featuredVideoContent {
+  height: auto;
+  width: 65%;
+  background-color: #fcfcfc;
+  display: inline;
+}
+
+/* line 309, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.featuredVideoTitle {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* line 314, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.featuredVideoTitle h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+/* line 320, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.featuredVideo {
+  height: 95%;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 330, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.gigStackerVid {
+  width: 97%;
+  height: 97%;
+  margin: 1% auto;
+  align-self: center;
+}
+
+/* line 337, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.videoPlaylist {
+  width: 35%;
+  height: 100%;
+  /*overflow: hidden;
+  overflow-y: scroll;*/
+  margin-left: 1%;
+  background-color: #fcfcfc;
+  padding-bottom: .5%;
+  display: inline;
+}
+
+/* line 348, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.video {
+  width: 100%;
+  height: 100%;
+  margin-left: 2%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 359, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.firstVideo {
+  margin-top: 1.5%;
+}
+
+/* line 363, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.video iframe {
+  width: 60%;
+  height: auto;
+}
+
+/* line 368, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.video p {
+  text-align: center;
+  margin-left: 1%;
+  align-self: center;
+}
+
+/* line 382, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.footerContainer {
+  background-color: #222;
+  height: 125px;
+  width: 100%;
+}
+
+/* line 388, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.footerContent {
+  width: 100%;
+  padding-top: 2%;
+}
+
+/* line 393, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.footerContent p {
+  color: #fcfcfc;
+  text-align: center;
+  margin: 0;
+}
+
+/* Style all font awesome icons */
+/* line 399, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.socialMediaIcons {
+  text-align: center;
+  margin: 1%;
+}
+
+/* line 404, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.fa {
+  padding: 3px;
+  font-size: 1.5em;
+  width: 5%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/* Add a hover effect if you want */
+/* line 414, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+/* line 421, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+/* line 426, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.fa-twitter {
+  color: white;
+}
+
+/* youtube */
+/* line 431, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.fa-youtube {
+  color: white;
+}
+
+/* Instagram */
+/* line 436, /Users/AreannaLuckett1/Development/portfolio_projects/gig-stacker-website-v2/app/assets/stylesheets/gig_stackers.scss */
+.fa-instagram {
+  color: white;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
