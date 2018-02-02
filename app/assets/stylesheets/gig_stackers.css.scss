@@ -506,6 +506,10 @@ select {
   .fa {
       margin: 5px 20px;
   }
+  .mainPagePhoto {
+    max-width: auto;
+    max-height: 520px;
+  }
 }
 
 @media only screen and (min-width: 503px) and (max-width: 696px) {
